@@ -1,4 +1,5 @@
 %define ver  0.10.3
+%define ver  0.10.3
 %define rel  1
 %define jobs 2
 
