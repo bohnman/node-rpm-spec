@@ -1,4 +1,4 @@
-%define ver  0.8.20
+%define ver  0.10.3
 %define rel  1
 %define jobs 2
 
@@ -43,14 +43,23 @@ rm -rf %{buildroot}
 
 /usr/bin/node
 /usr/bin/npm
-/usr/bin/node-waf
-/usr/include/node
 /usr/share/man/man1/node.1.gz
-/usr/lib/node
 /usr/lib/node_modules
 /usr/lib/dtrace/node.d
 
 %changelog
+* Wed Apr 8 2013 Ryan Bohn <rbohn@gmail.com> 0.10.3-1
+- RPM using upstream v0.10.3
+
+* Wed Apr 3 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.10.2-1
+- RPM using upstream v0.10.2
+
+* Tue Mar 12 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.10.0-1
+- RPM using upstream v0.10.0
+
+* Wed Feb 27 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.8.21-1
+- RPM using upstream v0.8.21
+
 * Fri Feb 15 2013 Josh Strater <jstrater@gmail.com> 0.8.20-1
 - RPM using upstream v0.8.20
 
