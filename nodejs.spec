@@ -1,4 +1,4 @@
-%define ver  0.10.3
+%define ver  0.10.4
 %define rel  1
 %define jobs 2
 
@@ -48,8 +48,8 @@ rm -rf %{buildroot}
 /usr/lib/dtrace/node.d
 
 %changelog
-* Wed Apr 8 2013 Ryan Bohn <rbohn@gmail.com> 0.10.3-1
-- RPM using upstream v0.10.3
+* Sun Apr 14 2013 Ryan Bohn <bohnman@gmail.com> 0.10.4-1
+- RPM using upstream v0.10.4
 
 * Wed Apr 3 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.10.2-1
 - RPM using upstream v0.10.2
